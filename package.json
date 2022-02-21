@@ -1,0 +1,29 @@
+{
+  "name": "ywemay-users-api-basic",
+  "version": "1.0.0",
+  "description": "Users API basic implementation. Authentication, authorization and CRUD operations",
+  "main": "build/index.js",
+  "author": "Dorian Chibuc",
+  "license": "MIT",
+  "dependencies": {
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ywemay/users-api-basic.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "users",
+    "javascript"
+  ],
+  "bugs": {
+    "url": "https://github.com/ywemay/users-api-basic/issues"
+  },
+  "homepage": "https://github.com/ywemay/users-api-basic#readme"
+}
+
