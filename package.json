@@ -8,7 +8,7 @@
   "scripts": {
     "build": "babel ./src -d ./lib",
     "lint": "eslint ./src",
-    "test": "mocha --require babel-core/register"
+    "test": "nyc mocha --require babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -24,10 +24,17 @@
     "url": "https://github.com/ywemay/users-api-basic/issues"
   },
   "homepage": "https://github.com/ywemay/users-api-basic#readme",
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^8.9.0",
-    "mocha": "^9.2.1"
+    "mocha": "^9.2.1",
+    "nyc": "^15.1.0"
   }
 }
